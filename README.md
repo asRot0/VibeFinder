@@ -66,6 +66,23 @@ This dataset contains song names, artists names, link to the song and lyrics. Th
 
 ---
 
+### 💻 Installation Instructions:
+To install these dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 🛠️ Explanation of the Requirements:
+- **`pandas`, `numpy`, `matplotlib`, and `seaborn`**: Used for data manipulation, visualization, and exploratory data analysis.
+- **`scikit-learn`**: Implements machine learning techniques like cosine similarity and text vectorization.
+- **`spotipy`**: Interacts with the Spotify API to fetch album covers and audio previews.
+- **`streamlit`**: Deploys the web application for an interactive user experience.
+- **`nltk`**: Facilitates natural language processing, specifically for handling stopwords.
+- **`wordcloud`**: Generates word clouds from text data for better visualization.
+
+---
+
 ## 🚀 Deploying VibeFinder
 Run the App:
 ```
