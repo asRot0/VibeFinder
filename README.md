@@ -24,6 +24,25 @@ VibeFinder is an intelligent music recommendation system designed to suggest son
 - **Cosine Similarity**: Measures closeness of song feature vectors.
 - **Streamlit**: Deploys the app for an interactive and user-friendly interface.
 
+### *`Cosine Similarity`*
+Cosine similarity is employed to measure the similarity between the feature vectors of different songs. It calculates the cosine of the angle between two vectors, with values ranging from -1 (completely dissimilar) to 1 (completely similar).  
+
+The formula is:
+\[
+\text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \|B\|}
+\]
+
+Where:
+- \( A \) and \( B \) are the feature vectors of two songs.
+- \( A \cdot B \) is the dot product of the vectors.
+- \( \|A\| \) and \( \|B\| \) are the magnitudes of the vectors.
+
+In the context of VibeFinder:
+1. A song's feature vector is compared against all other songs in the dataset.
+2. Songs with the highest similarity scores are considered most similar and are recommended.
+
+This approach ensures that the recommendations are based on the inherent musical characteristics of each track, providing a scientifically grounded and intuitive way to discover new music.
+
 ---
 
 ## 📂 **Project Structure**
@@ -41,9 +60,9 @@ VibeFinder/
 ---
 
 ## 📊 Dataset Used
-![Spotify Million Song Dataset](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
+[Spotify Million Song Dataset](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
 
-The dataset contains over a million tracks with detailed metadata and audio features such as tempo, loudness, key, and energy. These features are utilized to compute similarity and recommend music.
+This dataset contains song names, artists names, link to the song and lyrics. This dataset can be used for recommending songs, classifying or clustering songs.
 
 ---
 
