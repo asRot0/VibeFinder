@@ -27,7 +27,7 @@ VibeFinder is an intelligent music recommendation system designed to suggest son
 ---
 
 ## 📂 **Project Structure**
-```plaintext
+```
 VibeFinder/
 ├── data/          # Raw and processed datasets
 ├── notebooks/     # Jupyter notebooks for EDA and analysis
@@ -36,3 +36,21 @@ VibeFinder/
 ├── models/        # Trained ML models
 ├── app/           # Streamlit application code
 └── requirements.txt # Dependencies
+```
+
+---
+
+## 📊 Dataset Used
+![Spotify Million Song Dataset](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
+
+The dataset contains over a million tracks with detailed metadata and audio features such as tempo, loudness, key, and energy. These features are utilized to compute similarity and recommend music.
+
+---
+
+## 🚀 Deploying VibeFinder
+Run the App:
+```
+streamlit run app.py
+```
+- Ensure all dependencies are installed using `requirements.txt`.
+- The app will run locally, and a browser window will open with the interactive interface.
