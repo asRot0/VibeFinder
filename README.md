@@ -57,6 +57,8 @@ VibeFinder/
 └── requirements.txt # Dependencies
 ```
 
+![VibeFinder](screenshot.png)
+
 ---
 
 ## 📊 Dataset Used
