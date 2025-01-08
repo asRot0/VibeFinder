@@ -43,19 +43,6 @@ In the context of VibeFinder:
 
 This approach ensures that the recommendations are based on the inherent musical characteristics of each track, providing a scientifically grounded and intuitive way to discover new music.
 
----
-
-## 📂 **Project Structure**
-```
-VibeFinder/
-├── data/          # Raw and processed datasets
-├── notebooks/     # Jupyter notebooks for EDA and analysis
-├── src/           # Python scripts for data preprocessing, modeling, and recommendations
-├── reports/       # Visualizations, reports, and documentation
-├── models/        # Trained ML models
-├── app/           # Streamlit application code
-└── requirements.txt # Dependencies
-```
 
 ![VibeFinder](screenshot.png)
 
