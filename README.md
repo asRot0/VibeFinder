@@ -6,6 +6,8 @@
 ## 🌟 **What is VibeFinder?**
 VibeFinder is an intelligent music recommendation system designed to suggest songs based on your current mood or a favorite track. Using cutting-edge machine learning techniques and the Spotify Million Song Dataset, VibeFinder analyzes similarities between tracks to bring you personalized music recommendations, complete with album covers.  
 
+![VibeFinder](screenshot.png)
+
 ---
 
 ## 🧠 **How Does It Work?**
@@ -42,9 +44,6 @@ In the context of VibeFinder:
 2. Songs with the highest similarity scores are considered most similar and are recommended.
 
 This approach ensures that the recommendations are based on the inherent musical characteristics of each track, providing a scientifically grounded and intuitive way to discover new music.
-
-
-![VibeFinder](screenshot.png)
 
 ---
 
