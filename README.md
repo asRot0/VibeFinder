@@ -32,8 +32,9 @@ Cosine similarity is employed to measure the similarity between the feature vect
 The formula is:
 
 $$
-\LARGE \text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \|B\|}
+\huge \text{Cosine Similarity} = \frac{A \cdot B}{|A| |B|}
 $$
+
 
 Where:
 - \( A \) and \( B \) are the feature vectors of two songs.
