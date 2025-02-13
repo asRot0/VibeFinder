@@ -32,7 +32,7 @@ Cosine similarity is employed to measure the similarity between the feature vect
 The formula is:
 
 $$
-\huge \text{Cosine Similarity} = \frac{A \cdot B}{|A| |B|}
+\Huge \text{Cosine Similarity} = \frac{A \cdot B}{|A| |B|}
 $$
 
 
