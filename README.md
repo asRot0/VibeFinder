@@ -30,6 +30,7 @@ VibeFinder is an intelligent music recommendation system designed to suggest son
 Cosine similarity is employed to measure the similarity between the feature vectors of different songs. It calculates the cosine of the angle between two vectors, with values ranging from -1 (completely dissimilar) to 1 (completely similar).  
 
 The formula is:
+
 $$
 \LARGE \text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \|B\|}
 $$
