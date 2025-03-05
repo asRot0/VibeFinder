@@ -37,9 +37,9 @@ $$
 
 
 Where:
-- \( A \) and \( B \) are the feature vectors of two songs.
-- \( A \cdot B \) is the dot product of the vectors.
-- \( \|A\| \) and \( \|B\| \) are the magnitudes of the vectors.
+- $`A`$ and $`B`$ are the feature vectors of two songs.
+- $`A \cdot B`$ is the dot product of the vectors.
+- $`\|A\|`$ and $`\|B\|`$ are the magnitudes of the vectors.
 
 In the context of VibeFinder:
 1. A song's feature vector is compared against all other songs in the dataset.
